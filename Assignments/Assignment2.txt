@@ -1,0 +1,18 @@
+1) Hashmap -  HashMap tores the data in (Key, Value) pairs, if you try to insert the duplicate key in HashMap, it will replace the element of the corresponding key. Does not maintain insertion order.
+
+2) Linked HashMap - It is the same as HashMap with an additional feature that it maintains insertion order
+
+3) keyset() - This method does not take any parameter, returns a set having the keys of the hash map.
+
+4) get(key) - This method accepts a single parameter index of type integer which represents the index of the element in this list which is to be returned.
+   it returns the element at the specified index in the given list.
+
+5) toLowerCase() - This method is used and operated over a string where we want to convert all letters to lowercase in a string, Returns a string in lowercase      letter
+
+6) regrx [^"+ch+"] - returns any character other than ", + , c, h, + , " 
+
+7) CharAt(int index) - The String charAt() method returns the character at the specified index in a string, takes in the index of the character to be returned. Returns the character at the specified position.
+
+8) put(Character key, Integer value) - The method takes two parameters, both are of the Object type of the HashMap. If an existing key is passed then the previous value gets returned. If a new pair is passed, then NULL is returned.
+
+9) values() - This method does not accept any parameters it is used to return a collection view containing all the values of the map
