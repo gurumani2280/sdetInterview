@@ -1,0 +1,62 @@
+Assignments:
+A)Note down the methods and variables used in string programs
+1) split: This method is from String class, takes a regular expression and limit, outputs length of string
+returns PatternSyntaxExpression exception if regular expression passed is invalid
+
+2) trim: Method is from String class, does not accept any parameters, returns the omitted string with no spaces
+
+3) length method: This method is from string class, and it does not take any arguments, it outputs character count of the string
+
+4) length variable: Applicable for Arrays, outputs the size of the array
+
+5) ReplaceAll(): This method is from String class, takes String regex and String replacable string , returns the resulting String
+
+B)diff btwn length variable and length method():
+length:
+length can be used for int[], double[], String[] 
+Used to know the length of the arrays.
+
+length():
+length() can be used for String, StringBuilder
+Used to know the length of the String
+
+C) regular expression used with the explanation:
+1) [^a-zA-Z0-9] - Returns anything other than the character range a-z, A-Z and 0-9
+
+2) [^\\w] - Returns anything other than the alphanumeric value and underscore
+
+D) git commands used, clone,add , commit push , config,status
+1) git clone https://github.com/gurumani2280/sdetInterview 
+   Used to clone a Git remote repository
+
+2) cd .\sdetInterview\
+   Used to change the directory
+
+3) git status
+   Used to display the state of the working directory and the staging area
+
+4) git add *
+   Used to add changes in your working directory to the staging area
+
+5) git commit -m "Test"
+   Git considers each commit change or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.
+   When we commit, we should always include a message.
+
+6) git config --global user.email "prathiksha.n.shet@gmail.com"
+   Used to set up your email address without this you cannot even perform any commit operation. 
+
+7) git config --global user.name "Prathiksha"
+    Used to set up your name without this you cannot even perform any commit operation.
+
+8) git push
+   Git push allows us to transfer files from the local repository to remote repository hosting services like GitHub, GitLab
+
+9) git history
+   After you have created several commits, or if you have cloned a repository with an existing commit history when we want to look back to see what has happened. 
+
+10) git log 
+    The git log command displays all of the commits in a repository’s history.
+
+
+
+
